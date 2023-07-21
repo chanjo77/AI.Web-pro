@@ -1,0 +1,62 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #444;
+  padding: 0.5rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  margin: 0 1rem;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content styles */
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 2rem;
+}
+section h2 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
