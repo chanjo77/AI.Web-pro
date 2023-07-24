@@ -22,6 +22,7 @@ header {
 nav {
   background-color: #444;
   padding: 0.5rem;
+  text-align: center;
 }
 nav ul {
   list-style: none;
@@ -34,6 +35,7 @@ nav li {
 nav a {
   color: #fff;
   text-decoration: none;
+  text-transform: uppercase; /* 대문자로 변환 */
 }
 
 /* Main content styles */
@@ -41,6 +43,7 @@ nav a {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+  text-align: center;
 }
 
 /* Section styles */
@@ -50,6 +53,7 @@ section {
 section h2 {
   border-bottom: 1px solid #333;
   padding-bottom: 0.5rem;
+  color: #333; /* 텍스트 색상 변경 */
 }
 
 /* Footer styles */
@@ -59,4 +63,6 @@ footer {
   text-align: center;
   padding: 1rem;
 }
-
+footer p {
+  text-transform: uppercase; /* 대문자로 변환 */
+}
