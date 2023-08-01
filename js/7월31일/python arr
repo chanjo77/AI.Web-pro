@@ -1,0 +1,14 @@
+# 일부 중복되는 element를 저장한 배열 생성
+arr = [1, 2, 3, 4, 2, 5, 6, 3, 7, 8, 1, 9, 10, 10, 8]
+
+# 중복된 값을 없애는 함수 
+def remove_duplicates(arr):
+    unique_arr = []  # 중복 제거된 요소를 저장할 빈 배열
+    for item in arr:
+        if item not in unique_arr:  # 중복 요소가 아닌 경우에만 추가
+            unique_arr.append(item)
+    return unique_arr
+# 함수 호출
+result = remove_duplicates(arr)
+print(result)
+
